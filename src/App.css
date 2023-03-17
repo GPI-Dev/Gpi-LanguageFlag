@@ -1,0 +1,30 @@
+.gpi-wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gpi-wrapper .gpi-card {
+  max-width: 300px;
+  margin: 5px;
+  text-align: center;
+  border: 0.5px solid #000000;
+}
+
+.gpi-wrapper .gpi-card .card-img {
+  position: relative;
+  text-align: center;
+}
+
+.gpi-wrapper .gpi-card .card-img img {
+  max-height: 80px;
+  width: 100%;
+}
+
+.gpi-wrapper .gpi-card .card-text {
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2px;
+}
